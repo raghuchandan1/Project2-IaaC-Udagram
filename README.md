@@ -7,7 +7,7 @@ First create a network stack using the command
 create.bat networkstack network.yml network-parameters.json
 ```
 
-Then create the server stack by running the following command
+Once the networkstack's status is changed to CREATE_COMPLETE then create the server stack by running the following command
 ```bash
 create.bat serverstack servers.yml server-parameters.json
 ```
