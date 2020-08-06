@@ -11,3 +11,5 @@ Once the networkstack's status is changed to CREATE_COMPLETE then create the ser
 ```bash
 create.bat serverstack servers.yml server-parameters.json
 ```
+
+Once the serverstack's status changes to CREATE_COMPLETE check the website by following the link in the Outputs
