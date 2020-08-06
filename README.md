@@ -3,11 +3,11 @@ This project creates a CloudFormation stack and deploys an Apache server in an A
 
 ## Getting Started
 First create a network stack using the command
-```
-create.bat <stack-name> network.yml network-parameters.json
+```bash
+create.bat networkstack network.yml network-parameters.json
 ```
 
 Then create the server stack by running the following command
-```
-create.bat <stack-name> servers.yml server-parameters.json
+```bash
+create.bat serverstack servers.yml server-parameters.json
 ```
